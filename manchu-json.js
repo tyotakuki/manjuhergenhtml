@@ -109,7 +109,6 @@ xmlhttp.onreadystatechange = function() {
         jQuery(myArr.text).each(function(index, manjutext) {
                     var titletext = manjutext.title;
                     var contenttext = manjutext.content;
-                    alert(titletext);
                     jQuery(manjurules).each(function(index,rules) {
                         var regexoriginal = rules["original"];
                         var manjureplaced = rules["manju"];
