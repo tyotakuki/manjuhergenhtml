@@ -1,0 +1,81 @@
+<!--
+@font-face {
+  font-family: 'Xanyan Bold';
+  src: url('fonts/xanyanbold.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Xanyan Sans Serif';
+  src: url('fonts/xanyan-sansserif.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'PaKa';
+  src: url('fonts/paka.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Ginggulere Hergen';
+  src: url('fonts/ginggulere.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.inlinemath {
+    font-size: 10px;
+    padding: 2px;
+    border: 2px solid green;
+    margin: 2px;
+    position: relative;
+    top: 3px;
+    bottom: 3px;
+    display: inline-block;
+    height: fit-content;
+    vertical-align: top;
+    
+    
+    transform: rotate(90deg);
+    transform-origin: center;
+    -moz-writing-mode: horizontal-tb;
+    -moz-transform: rotate(90deg);
+    -moz-transform-origin: center;
+    writing-mode: horizontal-tb;
+    -webkit-writing-mode : horizontal-tb;
+    -webkit-transform: rotate(90deg);
+    -webkit-transform-origin: center;
+    -o-writing-mode: horizontal-tb;
+    -o-transform: rotate(90deg);
+    -o-transform-origin: center;
+    -ms-writing-mode: horizontal-tb;
+    -ms-transform: rotate(90deg);
+    -ms-transform-origin: center;
+    
+    text-align:inherit;
+}
+.math {
+    font-size: 20px;
+    padding: 0px;
+    margin: 0px;
+    border: 2px solid green;
+    transform: rotate(90deg);
+    transform-origin: left top;
+    -moz-writing-mode: horizontal-tb;
+    -moz-transform: rotate(90deg);
+    -moz-transform-origin: left top;
+    writing-mode: horizontal-tb;
+    -webkit-writing-mode : horizontal-tb;
+    -webkit-transform: rotate(90deg);
+    -webkit-transform-origin: left top;
+    -o-writing-mode: horizontal-tb;
+    -o-transform: rotate(90deg);
+    -o-transform-origin: left top;
+    -ms-writing-mode: horizontal-tb;
+    -ms-transform: rotate(90deg);
+    -ms-transform-origin: left top;
+    text-align:left;
+}
+
+-->

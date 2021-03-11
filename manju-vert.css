@@ -1,0 +1,129 @@
+<!--
+@font-face {
+  font-family: 'Xanyan Bold';
+  src: url('fonts/xanyanbold.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Xanyan Sans Serif';
+  src: url('fonts/xanyan-sansserif.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'PaKa';
+  src: url('fonts/paka.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Ginggulere Hergen';
+  src: url('fonts/ginggulere.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+.manju {
+    height:420px;
+    margin: 4px;
+    padding: 4px;
+    width: 1024px;
+    overflow: scroll;
+
+    -webkit-font-feature-settings: "ccmp";
+    font-family: 'Xanyan Sans Serif';
+    font-size: 20px;
+
+    -moz-writing-mode: vertical-lr;
+    writing-mode: vertical-lr;
+    -webkit-writing-mode : vertical-lr;
+    -o-writing-mode: vertical-lr;
+    -ms-writing-mode: tb-rl;
+    -webkit-text-orientation: sideways-right;
+    text-justify: inter-ideograph;
+    text-align:left;
+}
+
+
+.manjutitle {
+    height:420px;
+    margin: 4px;
+    padding: 4px;
+    overflow: auto;
+
+    -webkit-font-feature-settings: "ccmp";
+    font-family: 'PaKa';
+    font-size: 60px;
+
+    -moz-writing-mode: vertical-lr;
+    writing-mode: vertical-lr;
+    -webkit-writing-mode : vertical-lr;
+    -o-writing-mode: vertical-lr;
+    -ms-writing-mode: tb-rl;
+    -webkit-text-orientation: sideways-right;
+    text-justify: inter-ideograph;
+    text-align:left;
+}
+
+.manjuh1 {
+    height:420px;
+    margin: 4px;
+    padding: 4px;
+    overflow: auto;
+
+    -webkit-font-feature-settings: "ccmp";
+    font-family: 'PaKa';
+    font-size: 50px;
+
+    -moz-writing-mode: vertical-lr;
+    writing-mode: vertical-lr;
+    -webkit-writing-mode : vertical-lr;
+    -o-writing-mode: vertical-lr;
+    -ms-writing-mode: tb-rl;
+    -webkit-text-orientation: sideways-right;
+    text-justify: inter-ideograph;
+    text-align:left;
+}
+
+.manjuh2 {
+    height:420px;
+    margin: 4px;
+    padding: 4px;
+    overflow: auto;
+
+    -webkit-font-feature-settings: "ccmp";
+    font-family: 'PaKa';
+    font-size: 40px;
+
+    -moz-writing-mode: vertical-lr;
+    writing-mode: vertical-lr;
+    -webkit-writing-mode : vertical-lr;
+    -o-writing-mode: vertical-lr;
+    -ms-writing-mode: tb-rl;
+    -webkit-text-orientation: sideways-right;
+    text-justify: inter-ideograph;
+    text-align:left;
+}
+
+.manjutext {height:430px;}
+.manjubox {
+    height:100px;
+    min-width: 70px;
+    float:right;
+    clear:both;
+    font-family: 'Xanyan Sans Serif';
+    font-size : 22px;
+    margin-top:0px;
+    margin-left:15px;
+    margin-bottom:30px;
+    padding:3px;
+    background-color: #fff2e6;
+    -moz-writing-mode: vertical-lr;
+    writing-mode: vertical-lr;
+    -webkit-writing-mode: vertical-lr;
+    -o-writing-mode: vertical-lr;
+    -ms-writing-mode: tb-lr;
+    writing-mode: tb-lr;
+    -webkit-text-orientation: sideways-right;
+}
+-->
