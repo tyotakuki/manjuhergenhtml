@@ -23,11 +23,19 @@
   font-weight: normal;
   font-style: normal;
 }
-.manju {
+
+div.manjutext {
     height:420px;
     margin: 4px;
     padding: 4px;
     width: 1024px;
+    overflow: scroll;
+}
+
+.manju {
+    height:420px;
+    margin: 4px;
+    padding: 4px;
     overflow: scroll;
 
     -webkit-font-feature-settings: "ccmp";
@@ -39,7 +47,6 @@
     -webkit-writing-mode : vertical-lr;
     -o-writing-mode: vertical-lr;
     -ms-writing-mode: tb-rl;
-    -webkit-text-orientation: sideways-right;
     text-justify: inter-ideograph;
     text-align:left;
 }
@@ -60,7 +67,6 @@
     -webkit-writing-mode : vertical-lr;
     -o-writing-mode: vertical-lr;
     -ms-writing-mode: tb-rl;
-    -webkit-text-orientation: sideways-right;
     text-justify: inter-ideograph;
     text-align:left;
 }
@@ -105,7 +111,42 @@
     text-align:left;
 }
 
-.manjutext {height:430px;}
+p.hanwen {
+    height:420px;
+    margin: 4px;
+    padding: 4px;
+    display: inline-block;
+
+    -webkit-font-feature-settings: "ccmp";
+    font-size: 20px;
+
+    -moz-writing-mode: vertical-rl;
+    writing-mode: vertical-rl;
+    -webkit-writing-mode : vertical-rl;
+    -o-writing-mode: vertical-rl;
+    -ms-writing-mode: vertical-rl;
+    text-justify: inter-ideograph;
+    text-align:left;
+}
+
+span.hanwen {
+    margin: 4px;
+    padding: 4px;
+    overflow: scroll;
+    display: inline-block;
+
+    -webkit-font-feature-settings: "ccmp";
+    font-size: 20px;
+
+    -moz-writing-mode: vertical-lr;
+    writing-mode: vertical-lr;
+    -webkit-writing-mode : vertical-lr;
+    -o-writing-mode: vertical-lr;
+    -ms-writing-mode: vertical-lr;
+    text-justify: inter-ideograph;
+    text-align:left;
+}
+
 .manjubox {
     height:100px;
     min-width: 70px;
