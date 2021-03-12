@@ -122,7 +122,9 @@ p.hanwen {
 
     -moz-writing-mode: vertical-rl;
     writing-mode: vertical-rl;
+    text-orientation: upright;
     -webkit-writing-mode : vertical-rl;
+    -webkit-text-orientation: upright;
     -o-writing-mode: vertical-rl;
     -ms-writing-mode: vertical-rl;
     text-justify: inter-ideograph;
@@ -138,11 +140,13 @@ span.hanwen {
     -webkit-font-feature-settings: "ccmp";
     font-size: 20px;
 
-    -moz-writing-mode: vertical-lr;
-    writing-mode: vertical-lr;
-    -webkit-writing-mode : vertical-lr;
-    -o-writing-mode: vertical-lr;
-    -ms-writing-mode: vertical-lr;
+    -moz-writing-mode: vertical-rl;
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    -webkit-writing-mode : vertical-rl;
+    -webkit-text-orientation: upright;
+    -o-writing-mode: vertical-rl;
+    -ms-writing-mode: vertical-rl;
     text-justify: inter-ideograph;
     text-align:left;
 }
