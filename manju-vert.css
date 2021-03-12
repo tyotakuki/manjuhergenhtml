@@ -41,7 +41,7 @@ div.manjutext {
     -webkit-font-feature-settings: "ccmp";
     font-family: 'Xanyan Sans Serif';
     font-size: 20px;
-
+    -webkit-text-orientation: sideways-right;
     -moz-writing-mode: vertical-lr;
     writing-mode: vertical-lr;
     -webkit-writing-mode : vertical-lr;
@@ -61,7 +61,7 @@ div.manjutext {
     -webkit-font-feature-settings: "ccmp";
     font-family: 'PaKa';
     font-size: 60px;
-
+    -webkit-text-orientation: sideways-right;
     -moz-writing-mode: vertical-lr;
     writing-mode: vertical-lr;
     -webkit-writing-mode : vertical-lr;
